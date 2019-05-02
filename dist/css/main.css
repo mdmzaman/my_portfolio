@@ -94,6 +94,7 @@
   box-sizing: border-box; }
 
 body {
+  background: #444;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -108,10 +109,10 @@ body {
       position: absolute;
       top: 0;
       right: 0;
-      width: 100;
-      height: 100;
+      width: 100%;
+      height: 100%;
       z-index: -1;
-      background: rbga(#444, 0.9); }
+      background: rgba(68, 68, 68, 0.5); }
 
 h1,
 h2,
@@ -128,11 +129,15 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
+    background: rgba(73, 73, 73, 0.3);
+    border-radius: 45%;
+    width: 670px;
     text-shadow: 1px 1px red; }
 
 a {
-  color: #6c5da3;
-  text-decoration: none; }
+  color: #bcc0df;
+  text-decoration: none;
+  text-shadow: -1px -1px #000; }
 
 header {
   position: fixed;
