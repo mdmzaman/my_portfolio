@@ -42,7 +42,7 @@
 .menu {
   position: fixed;
   top: 0;
-  width: 100;
+  width: 100%;
   opacity: 0.9;
   visibility: hidden;
 
@@ -88,11 +88,12 @@
     }
 
     .portrait {
-      width: 650px;
-      height: 650px;
-      background: url("../img/portrait_bw1.jpg");
+      width: 500px;
+      height: 500px;
+      background: url("../img/portrait_bw.jpg");
       border-radius: 50%;
       border: solid 3px $secondary-color;
+      background-repeat: round;
     }
   }
 
