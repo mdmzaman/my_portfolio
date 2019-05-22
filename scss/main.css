@@ -1,8 +1,8 @@
 .menu-btn {
   position: absolute;
   z-index: 3;
-  right: 35px;
-  top: 35px;
+  right: 50px;
+  top: 20px;
   cursor: pointer;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
@@ -71,7 +71,7 @@
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: #373737;
+  background: black;
   list-style: none;
   -webkit-transform: translate3d(0, -100%, 0);
           transform: translate3d(0, -100%, 0);
@@ -85,7 +85,7 @@
 }
 
 .menu-branding {
-  background: #444;
+  background: #1e1e1e;
   -webkit-transform: translate3d(0, 100%, 0);
           transform: translate3d(0, 100%, 0);
   -webkit-transition: all 0.5s ease-out;
@@ -165,7 +165,8 @@
 }
 
 body {
-  background: #444;
+  background-image: -webkit-gradient(linear, left top, right top, from(#444), to(#000c00));
+  background-image: linear-gradient(to right, #444, #000c00);
   color: #fff;
   height: 100%;
   margin: 0;
@@ -174,9 +175,11 @@ body {
 }
 
 body#bg-img {
-  background: url(../img/background.jpg);
+  background: url(../img/bg3.jpg);
   background-attachment: fixed;
   background-size: cover;
+  outline: 4px double rgba(9, 129, 103, 0.5);
+  outline-offset: -40px;
 }
 
 body#bg-img:after {
@@ -187,7 +190,9 @@ body#bg-img:after {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: rgba(68, 68, 68, 0.9);
+  background: rgba(68, 68, 68, 0.7);
+  outline: 4px solid rgba(9, 129, 103, 0.4);
+  outline-offset: -40px;
 }
 
 h1,
@@ -200,7 +205,7 @@ h3 {
 h1.lg-heading,
 h2.lg-heading,
 h3.lg-heading {
-  font-size: 4rem;
+  font-size: 3rem;
   text-shadow: 1px 1px 0 #000;
 }
 
@@ -209,8 +214,11 @@ h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
-  background: rgba(73, 73, 73, 0.3);
+  border-radius: 35px;
+  background: rgba(17, 17, 17, 0.5);
+  display: inline-block;
   text-shadow: 1px 1px red;
+  font-size: 1.2rem;
 }
 
 a {

@@ -3,8 +3,8 @@
 .menu-btn {
   position: absolute;
   z-index: 3;
-  right: 35px;
-  top: 35px;
+  right: 50px;
+  top: 20px;
   cursor: pointer;
   @include easeOut;
 
@@ -65,7 +65,7 @@
   &-nav {
     margin: 0;
     padding: 0;
-    background: darken($primary-color, 5);
+    background: darken($primary-color, 50);
     list-style: none;
     transform: translate3d(0, -100%, 0);
     @include easeOut;
@@ -78,7 +78,7 @@
 
   // Branding Slide
   &-branding {
-    background: $primary-color;
+    background: darken($primary-color, 15);
     transform: translate3d(0, 100%, 0);
     @include easeOut;
 
