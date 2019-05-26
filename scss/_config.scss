@@ -16,8 +16,9 @@ $background-opacity: 0.8;
       background-size: cover;
 
       // added.. outline offset
-      outline: 4px double rgba(9, 129, 103, 0.5);
-      outline-offset: -40px;
+      //outline: 4px double rgba(9, 129, 103, 0.5);
+      outline: 4px double white;
+      outline-offset: -14px;
 
       &:after {
         content: "";
@@ -31,7 +32,7 @@ $background-opacity: 0.8;
         background: rgba($primary-color, $background-opacity);
         // added.. outline offset
         outline: 4px solid rgba(9, 129, 103, 0.4);
-        outline-offset: -40px;
+        outline-offset: -14px;
       }
     }
   }

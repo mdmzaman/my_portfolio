@@ -1,8 +1,8 @@
 .menu-btn {
   position: absolute;
   z-index: 3;
-  right: 50px;
-  top: 20px;
+  right: 25px;
+  top: 10px;
   cursor: pointer;
   transition: all 0.5s ease-out; }
   .menu-btn .btn-line {
@@ -105,8 +105,8 @@ body {
     background: url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover;
-    outline: 4px double rgba(9, 129, 103, 0.5);
-    outline-offset: -40px; }
+    outline: 4px double white;
+    outline-offset: -14px; }
     body#bg-img:after {
       content: "";
       position: absolute;
@@ -117,7 +117,7 @@ body {
       z-index: -1;
       background: rgba(0, 0, 0, 0.8);
       outline: 4px solid rgba(9, 129, 103, 0.4);
-      outline-offset: -40px; }
+      outline-offset: -14px; }
 
 h1,
 h2,
@@ -225,7 +225,7 @@ main {
   .boxes div {
     font-size: 1.3rem;
     border: 3px #fff solid;
-    padding: 1.5rem 01.5rem;
+    padding: 1.5rem 1rem;
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
     .boxes div:hover {
