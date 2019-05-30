@@ -104,17 +104,22 @@ main {
   .bio {
     grid-area: bio;
     font-size: 1.1rem;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     font-family: "Lobster", cursive;
 
     // Added.....
 
-    p::first-letter {
-      display: block;
-      float: left;
-      font-size: 3rem;
+    // p::first-letter {
+    //   display: block;
+    //   float: left;
+    //   font-size: 2rem;
+    //   line-height: 1px;
+    //   padding-right: 0.1px;
+    // }
+
+    .first-letter {
+      font-size: 2rem;
       line-height: 0.1rem;
-      padding: 1px;
     }
   }
 

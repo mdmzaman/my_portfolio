@@ -181,14 +181,11 @@ main {
   .about-info .bio {
     grid-area: bio;
     font-size: 1.1rem;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     font-family: "Lobster", cursive; }
-    .about-info .bio p::first-letter {
-      display: block;
-      float: left;
-      font-size: 3rem;
-      line-height: 0.1rem;
-      padding: 1px; }
+    .about-info .bio .first-letter {
+      font-size: 2rem;
+      line-height: 0.1rem; }
   .about-info .job-1 {
     grid-area: job1;
     text-align: left; }
