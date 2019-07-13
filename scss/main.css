@@ -288,16 +288,12 @@ main#home h1 {
   -ms-grid-column-span: 2;
   grid-area: bio;
   font-size: 1.1rem;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   font-family: "Lobster", cursive;
 }
 
-.about-info .bio p::first-letter {
-  display: block;
-  float: left;
-  font-size: 3rem;
-  line-height: 0.1rem;
-  padding: 1px;
+.about-info .bio .first-letter {
+  font-size: 2rem;
 }
 
 .about-info .job-1 {
